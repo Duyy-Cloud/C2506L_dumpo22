@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Management App</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Product Management</h2>
+<input id="productName" type="text" placeholder="Product Name">
+<input id="productPrice" type="number" placeholder="Price">
+<button onclick="addProduct()">Add Product</button>
+
+<table>
+  <thead>
+    <tr>
+      <th>No</th>
+      <th>Name</th>
+      <th>Price</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody id="productTable"></tbody>
+</table>
+
+<h2>User Management</h2>
+<input id="userName" type="text" placeholder="User Name">
+<input id="userEmail" type="email" placeholder="Email">
+<button onclick="addUser()">Add User</button>
+
+<table>
+  <thead>
+    <tr>
+      <th>No</th>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody id="userTable"></tbody>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>
